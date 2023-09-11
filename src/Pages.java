@@ -5,7 +5,7 @@ public class Pages {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Enter your age: ");
         int age = -1;
-        while (age<0) {
+        while (age < 0) {
             try {
                 age = Integer.parseInt(myScanner.nextLine());
             }
